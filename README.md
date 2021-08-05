@@ -20,7 +20,7 @@ If you prefer to solve the challenge using another language, you may replicate t
 
 1. **Flight Summary**
 
-   Write a function that accepts a flight segment and prints a one-line summary of that flight. The summary should include any origin, destination, and layover airports separated by an arrow (->), total flight time, and a list of flight numbers.
+   Write a function that accepts a flight segment array and prints a one-line summary of that flight. The summary should include any origin, destination, and layover airports separated by an arrow (->), total flight time, and a list of flight numbers.
    For example, for a flight with one layover in SLC:
 
    ```
@@ -30,7 +30,7 @@ If you prefer to solve the challenge using another language, you may replicate t
 
 2. **Find Layovers**
 
-   Write a function that accepts a number of layovers and an either outbound or return designation, and prints a flight summary of that flight. Use the function you wrote in step 1 to print the flight summaries.
+   Write a function that accepts a number of layovers and flight direction (either outbound or return), and prints a flight summary of that flight. Use the function you wrote in step 1 to print the flight summaries.
 
    ```JavaScript
    function findFlightsWithNumLayovers(numLayovers, flightDirection) {}
