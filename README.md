@@ -1,14 +1,20 @@
 # Coupa Travel Technical Challenge
 
-This challenge is designed to evaluate your ability to solve real-world problems that Coupa Travel has faced while building an online booking tool. You may use any language you like.
+This challenge is designed to evaluate your ability to solve real-world problems that Coupa Travel has faced while building an online booking tool.
 
 ### Data
 
 The dataset you will be using is found in [flights.json](./flights.json). It contains a list of 20 real flight search results for a round trip flight search from San Francisco to Boston.
 
-Looking at this array of flight results, you'll see each result is a tuple. The first item in the tuple is the outbound flight, and the second item is the return flight. Each flight object contains some fields (price, score) and a `segmentsArray` which contains the list of flight segments. A flight with only one flight sem
+Looking at this array of flight results, you'll see each result is a tuple. The first item in the tuple is the outbound flight, and the second item is the return flight. Each flight object contains some fields (price, score) and a `segmentsArray` which contains the list of flight segments. A flight segment represents one journey, and can be made up of multiple flights.
 
-- Identify the various objects in this data.
+### Running the Challenge
+
+We've provided a [node program](index.js) that reads in the JSON file and has function stubs for the functions you'll need to implement to solve the challenge.
+
+Run this program with `node index.js`.
+
+If you prefer to solve the challenge using another language, you may replicate this file in the language of your choosing.
 
 ### The Challenge
 
@@ -69,13 +75,13 @@ Looking at this array of flight results, you'll see each result is a tuple. The 
 
 4. **Time Filters (Bonus!)**
 
-Update the function you wrote in step 3 to accept filters for the times the flights depart and land. These filters should support a time range for both departure and arrival. This can be represented by four filters:
+   Update the function you wrote in step 3 to accept filters for the times the flights depart and land. These filters should support a time range for both departure and arrival. This can be represented by four filters:
 
-- departs after (time)
-- departs before (time)
-- arrives after (time)
-- arrives before(time)
+   - departs after (time)
+   - departs before (time)
+   - arrives after (time)
+   - arrives before(time)
 
-You can think this filter as supporting the time slider UI element that many flight booking tools support.
+   You can think this filter as supporting the time slider UI element that many flight booking tools support.
 
-![](./time_filters.png)
+   ![](./time_filters.png)
