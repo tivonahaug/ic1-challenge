@@ -73,15 +73,13 @@ If you prefer to solve the challenge using another language, you may replicate t
    );
    ```
 
-4. **Time Filters (Bonus!)**
-
-   Update the function you wrote in step 3 to accept filters for the times the flights depart and land. These filters should support a time range for both departure and arrival. This can be represented by four filters:
-
-   - departs after (time)
-   - departs before (time)
-   - arrives after (time)
-   - arrives before(time)
-
-   You can think this filter as supporting the time slider UI element that many flight booking tools support.
-
-   ![](./time_filters.png)
+4. **Front End Challenge**
+   Go to https://codesandbox.io/s/new
+   This should bring up a really basic one page React app
+   Try to complete the following
+   - Declare a string variable with your name
+   - Display Hello "Your Name" on the page
+   - Make the Header blue
+   - Declare an array variable with a list of dog breeds (or anything you want)
+   - Display that list on a page in an unordered list
+   - Create a small button component with one prop (bonus)
