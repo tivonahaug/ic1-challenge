@@ -2,7 +2,7 @@
 
 This challenge is designed to evaluate your ability to solve real-world problems that Coupa Travel has faced while building an online booking tool.
 
-Please familiarize yourself with https://codesandbox.io/s/new
+Please familiarize yourself with [CodeSandbox](https://codesandbox.io/s/new) 
 and have node.js installed on your machine. Also download this repo and have it set up/ready to go for the interview.
 
 ### Data
