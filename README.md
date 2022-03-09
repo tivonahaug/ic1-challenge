@@ -2,6 +2,9 @@
 
 This challenge is designed to evaluate your ability to solve real-world problems that Coupa Travel has faced while building an online booking tool.
 
+Please familiarize yourself with https://codesandbox.io/s/new
+and have node.js installed on your machine. Also download this repo and have it set up/ready to go for the interview.
+
 ### Data
 
 The dataset you will be using is found in [flights.json](./flights.json). It contains a list of 20 real flight search results for a round trip flight search from San Francisco to Boston.
